@@ -1,0 +1,3 @@
+displayName = Creepy town NPCs Mod
+author = nosferatuapostle
+version = 0.1
