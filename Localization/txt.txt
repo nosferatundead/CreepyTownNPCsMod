@@ -1,0 +1,159 @@
+en-us
+
+Mods: {
+	CreepyTownNPCs: {
+		NPCs: {
+			Herbalist: {
+				DisplayName: Herbalist
+
+				TownNPCMood: {
+					Content: *Sounds of silence*
+					NoHome: I can't stay here!
+					LoveSpace: I like it here. It's just me and my plants.
+					FarFromHome: I have to go back to my roots.
+					DislikeCrowded: I can't concentrate in this place.
+					HateCrowded: There's not enough room for my sprouts!
+					HateBiome: There is no life at all in {DesertBiome}!
+					LikeBiome: I like {ForestBiome}, it's so peaceful.
+					LoveBiome: It's so beautiful here, I wish I could stay here forever!
+					HateNPC: "{TravellingMerchant}, stop coming here!"
+					DislikeNPC: I hate mushrooms!
+					LikeNPC: "{Dryad} is simply beautiful."
+					LoveNPC: "{WitchDoctor} and I have known each other for a very long time."
+					LikeNPC_Princess: "{NPCName} always knows when to give me space so I can focus."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_CreepyTownNPCsMod/Herbalist}"
+				}
+
+				Census.SpawnCondition: Have {Moonglow} in your inventory
+			}
+		}
+
+		Bestiary.Herbalist: An herbalist loves nature. It sells plants and seeds for use and cultivation.
+
+		NPCNames: {
+			Herbalist: {
+				Name1: Plantsen
+				Name2: Evan
+				Name3: Flowy
+				Name4: Cult
+			}
+		}
+
+		Dialogue: {
+			Herbalist: {
+				StandardDialogue1: Don't step on my plants!
+				StandardDialogue2: There are no magic beanstalks.
+				StandardDialogue3: Here you will find all the plants you might need.
+				StandardDialogue4: Growing plants requires hard work and dedication.
+				ChatOption1: Plants
+				ChatOption2: Seeds
+			}
+		}
+
+		TownNPCMood_Princess.LoveNPC_CreepyTownNPCsMod/Herbalist: "{Herbalist} works so hard to preserve nature!"
+	}
+}
+
+NPCs: {
+	Herbalist: {
+		DisplayName: Herbalist
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LoveBiome: I love {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			HateBiome: I hate {BiomeName}.
+			LoveNPC: I love {NPCName}.
+			LikeNPC: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			HateNPC: I hate {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}
+----------------------------------------------------------
+ru-ru
+
+Mods: {
+	CreepyTownNPCs: {
+		NPCs: {
+			Herbalist: {
+				// DisplayName: Herbalist
+
+				TownNPCMood: {
+					// Content: *Sounds of silence*
+					// NoHome: I can't stay here!
+					// LoveSpace: I like it here. It's just me and my plants.
+					// FarFromHome: I have to go back to my roots.
+					// DislikeCrowded: I can't concentrate in this place.
+					// HateCrowded: There's not enough room for my sprouts!
+					// HateBiome: There is no life at all in {DesertBiome}!
+					// LikeBiome: I like {ForestBiome}, it's so peaceful.
+					// LoveBiome: It's so beautiful here, I wish I could stay here forever!
+					// HateNPC: "{TravellingMerchant}, stop coming here!"
+					// DislikeNPC: I hate mushrooms!
+					// LikeNPC: "{Dryad} is simply beautiful."
+					// LoveNPC: "{WitchDoctor} and I have known each other for a very long time."
+					// LikeNPC_Princess: "{NPCName} always knows when to give me space so I can focus."
+					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_CreepyTownNPCsMod/Herbalist}"
+				}
+
+				// Census.SpawnCondition: Have {Moonglow} in your inventory
+			}
+		}
+
+		// Bestiary.Herbalist: An herbalist loves nature. It sells plants and seeds for use and cultivation.
+
+		NPCNames: {
+			Herbalist: {
+				// Name1: Plantsen
+				// Name2: Evan
+				// Name3: Flowy
+				// Name4: Cult
+			}
+		}
+
+		Dialogue: {
+			Herbalist: {
+				// StandardDialogue1: Don't step on my plants!
+				// StandardDialogue2: There are no magic beanstalks.
+				// StandardDialogue3: Here you will find all the plants you might need.
+				// StandardDialogue4: Growing plants requires hard work and dedication.
+				// ChatOption1: Plants
+				// ChatOption2: Seeds
+			}
+		}
+
+		// TownNPCMood_Princess.LoveNPC_CreepyTownNPCsMod/Herbalist: "{Herbalist} works so hard to preserve nature!"
+	}
+}
+
+NPCs: {
+	Herbalist: {
+		// DisplayName: Herbalist
+
+		TownNPCMood: {
+			// Content: I am content.
+			// NoHome: I hate not having a home.
+			// FarFromHome: I am too far from home.
+			// LoveSpace: I love having so much space.
+			// DislikeCrowded: I dislike how crowded I am.
+			// HateCrowded: I hate how crowded I am.
+			// LoveBiome: I love {BiomeName}.
+			// LikeBiome: I like {BiomeName}.
+			// HateBiome: I hate {BiomeName}.
+			// LoveNPC: I love {NPCName}.
+			// LikeNPC: I like {NPCName}.
+			// DislikeNPC: I dislike {NPCName}.
+			// HateNPC: I hate {NPCName}.
+			// LikeNPC_Princess: I like {NPCName}.
+			// Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}
